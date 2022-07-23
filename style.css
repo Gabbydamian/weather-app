@@ -6,13 +6,16 @@ body {
   width: 100%;
   overflow: hidden;
   margin: 0;
-  background: #fe32ee;
+  background: url(https://source.unsplash.com/random?nature);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: sans-serif;
   font-size: 120%;
+  transition: all 0.3s ease-in-out;
 }
 
-
-.card{
+.card {
   background: #000000d2;
   color: floralwhite;
   padding: 2em;
@@ -72,6 +75,14 @@ button:hover,
 
 .temp {
   margin: 0;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 10px;
 }
 
 .description,
@@ -79,4 +90,9 @@ button:hover,
 .wind {
   font-size: 120%;
   margin: 5px 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }

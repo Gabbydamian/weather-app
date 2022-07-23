@@ -12,20 +12,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="card">
-      <div class="search">
-        <input type="text" class="search-bar" placeholder="Search" />
-        <button><i class="bi bi-search search-btn"></i></button>
-      </div>
-      <div class="weather">
-        <h2 class="city">Weather in Denver</h2>
-        <div class="temp">51°C</div>
-        <img src="" alt="" class="icon" />
-        <div class="description">Cloudy</div>
-        <div class="humidity">Humidity: 60%</div>
-        <div class="wind">Wind Speed: 6.2 km/h</div>
+    <div id="main">
+      <div class="card">
+        <div class="search">
+          <input
+            id="search"
+            type="text"
+            class="search-bar"
+            placeholder="Enter city name"
+          />
+          <button><i class="bi bi-search search-btn"></i></button>
+        </div>
+        <div class="weather">
+          <h2 class="city"></h2>
+          <h1 class="temp"></h1>
+          <div class="flex">
+            <img src="" alt="" class="icon" />
+            <div class="description"></div>
+          </div>
+          <div class="humidity"></div>
+          <div class="wind"></div>
+        </div>
       </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -95,4 +99,7 @@ button:hover,
 .flex {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 768px) {
 }
